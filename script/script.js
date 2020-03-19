@@ -8,7 +8,7 @@ $.ajax({
         console.log(result);
 
         var qrcode = new QRCode(document.getElementById("qrcode"), {
-            text: "http://192.168.0.36:3000/connect/" + result.code,
+            text: "http://192.168.0.XX:3000/connect/" + result.code,
             width: 250,
             height: 250,
             colorDark: "#000000",
